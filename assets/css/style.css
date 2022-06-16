@@ -1,0 +1,20 @@
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.main-header {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .main-h {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
