@@ -35,6 +35,10 @@ ul {
     font-size: 24px;
 }
 
+.link-h1 {
+    color: #5cb85c;
+}
+
 .sidebar {
     width: 12%;
 }
