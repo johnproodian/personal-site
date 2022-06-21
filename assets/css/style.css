@@ -12,6 +12,7 @@ a {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .main-container {
@@ -26,9 +27,14 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: auto;
     /* border-style: solid; */
     /* border-color: red; */
 }
+
+/* .main-header .main-h {
+    padding: 25% 0 0 0;
+} */
 
 .main-h {
     display: block;
