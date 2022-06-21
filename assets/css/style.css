@@ -1,12 +1,17 @@
 * {
     font-family: 'Courier Prime', monospace;
+    background-color: black;
+    color: white;
 }
-
-
 
 a {
     text-decoration: none;
     color: #5cb85c;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .main-container {
@@ -17,14 +22,19 @@ a {
 }
 
 .main-header {
-    width: 25%;
+    width: 35%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* border-style: solid; */
+    /* border-color: red; */
 }
 
-/* .main-h {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
+.main-h {
+    display: block;
+    font-size: 24px;
+}
+
+.sidebar {
+    width: 12%;
+}
